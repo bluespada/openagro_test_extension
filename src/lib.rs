@@ -1,7 +1,7 @@
 use openagro_extension::extension::ExtensionMetadata;
 
 
-pub async fn metadata() -> ExtensionMetadata {
+pub fn metadata() -> ExtensionMetadata {
     ExtensionMetadata {
         extension_id: "".to_string(),
         name: "".to_string(),
