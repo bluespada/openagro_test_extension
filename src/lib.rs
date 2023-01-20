@@ -11,5 +11,6 @@ pub fn metadata() -> ExtensionMetadata {
         version: "1.0.0".to_string(),
         depends_on: vec![],
         application: true,
+        data: vec![],
     }
 }
